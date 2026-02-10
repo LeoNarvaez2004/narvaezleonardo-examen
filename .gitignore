@@ -1,0 +1,6 @@
+node_modules/
+.env
+npmp-debug.log*
+.Ds_Store
+*.log
+coverage/
