@@ -29,9 +29,6 @@ jobs:
 
       - name: Coverage mayor o igual al 85%
         run: npm run coverage
-      #- name: Simular despliegue
-      #  run: |
-      #    echo "Despliegue simulado: la aplicacion paso lint y pruebas."
 
       - name: Build
         run: npm ci && npm run build
