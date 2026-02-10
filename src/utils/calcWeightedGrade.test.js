@@ -31,3 +31,4 @@ describe('calcWeightedGrade', () => {
         expect(percentile(0, values)).toBe(1);
     });
 });
+

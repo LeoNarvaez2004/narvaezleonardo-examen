@@ -47,7 +47,7 @@ function percentile(p, values) {
     }
     for (let i = 0; i < values.length; i++) {
         if (typeof values[i] !== 'number') {
-            throw new TypeError(`El elemento en indice ${i} debe ser un numero`);
+            throw new TypeError("El elemento en indice ${i} debe ser un numero");
         }
     }
     const sorted = [...values].sort((a, b) => a - b);
